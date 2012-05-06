@@ -21,8 +21,14 @@ $(window).load(function(){
 			folio_thumbs.click( function(e) { 
 				var hash = '#' + $(this).attr('id');
 				hash = hash.replace('_thumb','')
-				window.location = hash
 				
+				if (window.location.hash == hash) {
+					window.location = "#";
+					window.location = hash;
+				}
+				else {
+					window.location = hash;
+				};
 			});
 			
 			$('#close_btn').click( function(e) { 
@@ -78,7 +84,7 @@ $(window).load(function(){
 			
 			
 			getTwitters('twitter', {
-				id: 'marcfolio', 
+				id: 'rwanghacker', 
 				count: 1, 
 				enableLinks: true, 
 				ignoreReplies: true,
