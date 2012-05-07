@@ -575,4 +575,6 @@ img a {
 	color:#6D6E71;	
 }
 
-
+#twitter_content header {
+	display: none;
+}
