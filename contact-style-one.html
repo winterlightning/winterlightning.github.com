@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
-	<title>Ray.C.Wang</title>
+	<title>Nietzsche - Contact Style One | Creative Multipurpose HTML5 Template</title>
 	<link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">
 
 	<!-- Font -->
@@ -42,13 +42,13 @@
 							<li>
 								<a href="index.html">Slider &amp; 3 Column Gird</a>
 							</li>
-							<li>
+							<li class="current">
 								<a href="index-with-parallax.html">Parallax &amp; 4 Column Grid</a>
 							</li>
 							<li>
 								<a href="index-full-width-grid-four-columns-with-slider.html">Slider &amp; 4 Column Full Width Grid</a>
 							</li>
-							<li class="current">
+							<li>
 								<a href="index-grid-three-column.html">3 Column Grid Only</a>
 							</li>
 							<li>
@@ -122,7 +122,7 @@
 					<li>
 						<a href="#" class="contains-sub-menu">Contact</a>
 						<ul class="sub-menu">
-							<li>
+							<li class="current">
 								<a href="contact-style-one.html">Contact Regular</a>
 							</li>
 							<li>
@@ -165,12 +165,12 @@
 		<div class="wrapper-inner">
 
 			<!-- Header -->
-			<header class="header-2 header" data-helper-in-threshold="300" data-helper-out-threshold="500" data-sticky-threshold="300" data-compact-threshold="300">
+			<header class="header-4 header" data-sticky-threshold="window-height" data-bkg-threshold="window-height">
 				<div class="header-inner">
 					<div class="row nav-bar reveal-side-navigation">
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
-								<a href="index.html" style="font-size: 25px; font-weight: 100">Ray.C.Wang</a>
+								<a href="index.html"><img src="images/logo.png" alt="Nietzsche Logo" /></a>
 							</div>
 							<div id="overlay-nav-show" class="navigation-show">
 								<a href="#">
@@ -179,13 +179,13 @@
 							</div>
 							<nav class="navigation">
 								<ul>
-									<li class="current">
+									<li>
 										<a href="index.html">Home</a>
 									</li>
 									<li>
 										<a href="blog.html">News</a>
 									</li>
-									<li>
+									<li class="current">
 										<a href="contact-style-one.html">Contact</a>
 									</li>
 								</ul>
@@ -197,77 +197,144 @@
 			<!-- Header End -->
 
 			<!-- Content -->
-			<div  class="content clearfix reveal-side-navigation">
+			<div class="content clearfix reveal-side-navigation">
+
+				<!-- Parallax Section -->
+				<div class="parallax fixed-height intro" data-src="images/slider/slide-7-fs.jpg" data-retina>
+					<div class="tmp-content">
+						<div class="tmp-content-inner left">
+							<div class="row">
+								<div class="column width-12">
+									<h1 class="horizon letter-spaced weight-bold color-white no-margin-bottom inline" 
+											data-animate-in="opacity:0;scale:1.5;duration:400ms;easing:swing;"
+									>
+										CONTACT
+									</h1>
+									<div class="clear"></div>
+									<span class="horizon text-medium letter-spaced weight-light color-white no-margin-bottom" 
+											data-animate-in="opacity:0;transY:30px;duration:400ms;delay:200ms;easing:swing;"
+									>
+										LET'S COLLABORATE
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Parallax Section End -->
 
 				<!-- Content Section -->
-				<div  id="mainhero" class="section-block bkg-grey-ultralight replicable-content">
+				<div class="section-block bkg-grey-ultralight replicable-content">
 					<div class="row medium">
 						<div class="column width-10">
-							<h2 class="weight-light" style="color: #fff">Hi, I am <strong>Ray Wang</Strong>.</h2>
+							<h3 class="weight-light">Get <strong>your</strong> project <strong>started</strong>.</h3>
 						</div>
 						<div class="column width-12">
-							<p class="lead" style="color: #fff">I'm a programmer/designer/entrepreneur working and living in NYC. I graduated from Cornell with a undergrad and masters in Computer Science. I co-founded <a href="http://nimbusbase.com" target="_blank">NimbusBase</a>. I am currently working on prototyping new business ideas at <a href="http://www.xad.com/" target="_blank">xAd</a>. </p>
+							<p class="lead">Built on our own solid framework; filled with a range of prestyled modules and content blocks, in-hosue developed plugins such as sliders, parallax sections, counters and much much more.</p>
 						</div>
 					</div>
 				</div>
 				<!-- Content Section End -->
 
-				<!-- Portfolio Grid Section 5 -->
-				<div class="section-block portfolio-filter-menu left">
+				<!--Contact Form -->
+				<section class="section-block contact-2">
 					<div class="row">
-						<div class="column width-12">
-							<ul>
-								<li><a class="active" href="#" data-filter="*">All</a></li>
-								<li><a href="#" data-filter=".mobile">Mobile</a></li>
-								<li><a href="#" data-filter=".web">Web</a></li>
-								<li><a href="#" data-filter=".desktop">Desktop</a></li>
-							</ul>
+						<div class="column width-4">
+							<h6 class="color-gray no-margin-top">Come Say Hello</h6>
+							<p class="lead">198  West 21th Street, Suite 721, New York, NY 10010.</p>
+							<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.</p>
+							<p><strong>Email:</strong> <a href="mailto:#">info@nietzsche.com</a><br>
+							<strong>Phone:</strong> +1 212-249-2390<br>
+							<strong>Fax:</strong> +1 404-610-4576</p>
+						</div>
+						<div class="column width-8">
+							<div class="contact-form-container">
+								<form class="contact-form" action="php/send-email.php" method="post" novalidate>
+									<div class="row">
+										<div class="column width-6">
+											<input type="text" name="fname" class="form-fname form-element large" placeholder="First Name*" tabindex="1" required>
+										</div>
+										<div class="column width-6">
+											<input type="text" name="lname" class="form-lname form-element large" placeholder="Last Name" tabindex="2">
+										</div>
+										<div class="column width-6">
+											<input type="email" name="email" class="form-email form-element large" placeholder="Email address*" tabindex="3" required>
+										</div>
+										<div class="column width-6">
+											<input type="text" name="website" class="form-website form-element large" placeholder="http://yourwebsite.com" tabindex="4">
+										</div>
+										<div class="column width-6">
+											<input type="text" name="honeypot" class="form-honeypot form-element large">
+										</div>
+									</div>
+									<div class="row">
+										<div class="column width-12">
+											<textarea name="message" class="form-message form-element medium" placeholder="Message*" tabindex="5" required></textarea>
+											<input type="submit" value="Send Email" class="form-submit medium button bkg-charcoal bkg-hover-charcoal color-white color-hover-white">
+										</div>
+									</div>
+								</form>
+								<div class="form-response"></div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="section-block portfolio-5">
-					<div class="row">
+				</section>
+				<!--Contact Form End -->
+
+				<!-- Map Section -->
+				<div class="section-block">
+					<div class="row collapse full-width">
 						<div class="column width-12">
-							<div class="row content-grid-3 masonry-grid">
-								
-								<div class="grid-item web right">
-									<div class="thumbnail">
-										<a class="overlay-link" href="portfolio/man-vs-nature.html">
-											<img src="imgs/googletaskoffline_screen.png" alt=""/>
-											<span class="overlay-info animation-slide-in-left">
-												<span>
-													<span>
-														<span class="project-title">CHROME STORE APP (2012)</span><br>
-														<span class="project-description">Google Tasks Offline</span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</div>
-								
-								
+							<div class="map-container">
+								<div id="map-canvas"></div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- Portfolio Grid Section 5 End -->
+				<!-- Map Section End -->
 
 			</div>
 			<!-- Content End -->
 
 			<!-- Footer 1-->
 			<footer class="footer-1 footer reveal-side-navigation">
-
+				<div class="footer-top left">
+					<div class="row">
+						<div class="column width-12">
+							<div class="footer-logo">
+								<a href="index.html"><img src="images/logo-footer.png" alt="Nietzsche Logo" /></a>
+							</div>
+						</div>
+						<div class="column width-5">
+							<div class="footer-top-inner">
+								<p>Nietzsche is a solid, well designed and unique template for agencies or inviduals looking to put their work forward in a professional and coherent manner. Built on our own solid framework, it comes with a range of prestyled modules and content blocks, several in-hosue developed plugins such as sliders, parallax sections, counters and much much more.</p>
+							</div>
+						</div>
+						<div class="column width-3 push-1">
+							<div class="footer-top-inner">
+								<h3>Main Headquarters</h3>
+								<address>126-130 Crosby Street, Soho<br>New York City, NY 10012, U.S.<br>Tel: +1 212-249-2390<br>Email: <a href="mailto:#">info@nietzsche.com</a></address>
+							</div>
+						</div>
+						<div class="column width-3 push-1">
+							<div class="footer-top-inner">
+								<h3>LOS ANGELES</h3>
+								<address>1823 Monroe Street No. 107<br>Santa Monica, CA 90404, U.S.<br>Tel: +1 404-610-4576<br>Email: <a href="mailto:#">info@nietzschela.com</a></address>
+							</div>
+						</div>
+						
+					</div>
+				</div>
 				<div class="footer-bottom left">
 					<div class="row">
 						<div class="column width-12">
 							<div class="footer-bottom-inner">
-								<p class="copyright no-margin-bottom">&copy; 2015 Ray Wang. MADE WITH LOVE IN NYC.</p>
+								<p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN. All Rights Reserved.</p>
 								<ul class="social-list list-horizontal">
-									<li><a href="#">LinkedIn</a>/</li>
+									<li><a href="#">Facebook</a>/</li>
 									<li><a href="#">Twitter</a>/</li>
-									<li><a href="#">AngelList</a></li>
+									<li><a href="#">Behance</a>/</li>
+									<li><a href="#">Google+</a></li>
 								</ul>
 							</div>
 						</div>
