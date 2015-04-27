@@ -504,7 +504,7 @@ body,
 
 /* Header 2 */
 .header-2 .header-inner{
-	background: #232323;
+	background: #125;
 }
 .header-2 .logo, 
 .header-2 .navigation{
@@ -4219,7 +4219,7 @@ only screen and (				min-resolution: 2dppx) {
 }
 .footer-1 .footer-bottom{
 	padding-bottom: 2rem;
-	color: #555;
+	color: #aaa;
 }
 .footer-1 .footer-bottom-inner{
 	padding-top: 3rem;
@@ -5173,6 +5173,16 @@ aside .widget li{
 
 #mainhero [class*="hero-"] p, #mainhero .lead {
   font-size: 2.4rem;
+}
+
+.whiteonblack {
+	background: rgba(0,0,0,0.7);
+  color: #fff !important;
+  padding-top: 10px;
+}
+
+.header-4 .header-inner .navigation > ul > li > a {
+	color: #fff;
 }
 
 @media only screen and (max-width: 1023px) { 
